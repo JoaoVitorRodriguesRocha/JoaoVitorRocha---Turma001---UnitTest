@@ -1,27 +1,26 @@
-# JEST Unit Tests
+# AnaliseDeDados - Projeto de Análise de Dados
 
-## GitHub Actions
+Este projeto contém a classe `AnaliseDeDados` que fornece várias funcionalidades para análise estatística, como cálculo de média, mediana, desvio padrão, e outros.
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+## Funcionalidades
 
-## SonarCloud
+- Adicionar e limpar dados
+- Ordenar dados
+- Calcular estatísticas como média, mediana, moda, etc.
+- Normalizar dados
+- Remover outliers
+- Calcular a correlação entre dois conjuntos de dados
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
+## Como rodar os testes
 
-## Getting Started
+Para garantir que a classe `AnaliseDeDados` esteja funcionando corretamente, este projeto inclui uma suíte de testes automatizados usando o [Jest](https://jestjs.io/).
 
-In order to execute this project you must follow the steps below:
+### Pré-requisitos
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
+Antes de rodar os testes, você precisará garantir que o Node.js e o NPM estejam instalados em sua máquina.
 
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
+Você pode verificar isso rodando os seguintes comandos:
 
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
+```bash
+node -v
+npm -v
