@@ -7,8 +7,8 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0",
-    "rimraf": "^6.0.1",
-    "mkdirp": "^3.0.1"
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.0.1"
   },
   "scripts": {
     "clean": "rimraf ./coverage && mkdirp ./coverage",
@@ -20,5 +20,8 @@
       "lcov",
       "text"
     ]
+  },
+  "devDependencies": {
+    "@stryker-mutator/jest-runner": "^9.0.1"
   }
 }
